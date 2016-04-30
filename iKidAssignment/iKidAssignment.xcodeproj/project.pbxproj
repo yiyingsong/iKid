@@ -21,12 +21,6 @@
 		18EF7FCD1CD46FA800B9A962 /* LOLSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF7FCC1CD46FA800B9A962 /* LOLSecond.swift */; };
 		18EF7FCF1CD46FD300B9A962 /* LMAOFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF7FCE1CD46FD300B9A962 /* LMAOFirst.swift */; };
 		18EF7FD11CD4701000B9A962 /* LMAOSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF7FD01CD4701000B9A962 /* LMAOSecond.swift */; };
-		18EF7FD31CD474DA00B9A962 /* run.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18EF7FD21CD474DA00B9A962 /* run.jpg */; };
-		18EF7FD61CD4752A00B9A962 /* cute-doggs-084.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18EF7FD51CD4752A00B9A962 /* cute-doggs-084.jpg */; };
-		18EF7FD81CD4753500B9A962 /* code1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EF7FD71CD4753500B9A962 /* code1.png */; };
-		18EF7FDA1CD4754200B9A962 /* code2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EF7FD91CD4754200B9A962 /* code2.png */; };
-		18EF7FDC1CD4755200B9A962 /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EF7FDB1CD4755200B9A962 /* happy.png */; };
-		18EF7FDE1CD4756100B9A962 /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EF7FDD1CD4756100B9A962 /* sad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,12 +40,6 @@
 		18EF7FCC1CD46FA800B9A962 /* LOLSecond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOLSecond.swift; sourceTree = "<group>"; };
 		18EF7FCE1CD46FD300B9A962 /* LMAOFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMAOFirst.swift; sourceTree = "<group>"; };
 		18EF7FD01CD4701000B9A962 /* LMAOSecond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMAOSecond.swift; sourceTree = "<group>"; };
-		18EF7FD21CD474DA00B9A962 /* run.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = run.jpg; sourceTree = "<group>"; };
-		18EF7FD51CD4752A00B9A962 /* cute-doggs-084.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cute-doggs-084.jpg"; sourceTree = "<group>"; };
-		18EF7FD71CD4753500B9A962 /* code1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = code1.png; sourceTree = "<group>"; };
-		18EF7FD91CD4754200B9A962 /* code2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = code2.png; sourceTree = "<group>"; };
-		18EF7FDB1CD4755200B9A962 /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy.png; sourceTree = "<group>"; };
-		18EF7FDD1CD4756100B9A962 /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,12 +95,6 @@
 		18EF7FD41CD4750900B9A962 /* pictures */ = {
 			isa = PBXGroup;
 			children = (
-				18EF7FD21CD474DA00B9A962 /* run.jpg */,
-				18EF7FD51CD4752A00B9A962 /* cute-doggs-084.jpg */,
-				18EF7FD71CD4753500B9A962 /* code1.png */,
-				18EF7FD91CD4754200B9A962 /* code2.png */,
-				18EF7FDB1CD4755200B9A962 /* happy.png */,
-				18EF7FDD1CD4756100B9A962 /* sad.png */,
 			);
 			name = pictures;
 			sourceTree = "<group>";
@@ -176,15 +158,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18EF7FD31CD474DA00B9A962 /* run.jpg in Resources */,
 				18EF7FB91CD4643800B9A962 /* LaunchScreen.storyboard in Resources */,
-				18EF7FDC1CD4755200B9A962 /* happy.png in Resources */,
-				18EF7FDA1CD4754200B9A962 /* code2.png in Resources */,
 				18EF7FB61CD4643800B9A962 /* Assets.xcassets in Resources */,
-				18EF7FD81CD4753500B9A962 /* code1.png in Resources */,
 				18EF7FB41CD4643800B9A962 /* Main.storyboard in Resources */,
-				18EF7FDE1CD4756100B9A962 /* sad.png in Resources */,
-				18EF7FD61CD4752A00B9A962 /* cute-doggs-084.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +331,7 @@
 				18EF7FBF1CD4643800B9A962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

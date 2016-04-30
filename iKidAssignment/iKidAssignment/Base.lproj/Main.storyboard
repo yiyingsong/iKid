@@ -51,7 +51,7 @@
         <!--Third View Controller-->
         <scene sceneID="XjK-Cs-EfG">
             <objects>
-                <viewController id="7F4-wC-AkQ" customClass="ThirdViewController" sceneMemberID="viewController">
+                <viewController id="7F4-wC-AkQ" customClass="ThirdViewController" customModule="iKidAssignment" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jHZ-wU-Fgp"/>
                         <viewControllerLayoutGuide type="bottom" id="Np2-ce-UnM"/>
@@ -98,14 +98,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="code1.png" translatesAutoresizingMaskIntoConstraints="NO" id="QBQ-Jn-9co">
-                                <rect key="frame" x="180" y="205" width="240" height="189"/>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's the object-oriented way" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KtB-Ct-f7r">
+                                <rect key="frame" x="180" y="289" width="240" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" to become healthy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJf-iU-J10">
+                                <rect key="frame" x="227" y="318" width="147" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="QBQ-Jn-9co" firstAttribute="centerY" secondItem="SjV-gb-VUq" secondAttribute="centerY" id="ZFk-lU-vGh"/>
-                            <constraint firstItem="QBQ-Jn-9co" firstAttribute="centerX" secondItem="SjV-gb-VUq" secondAttribute="centerX" id="ka6-hh-8Rg"/>
+                            <constraint firstItem="FJf-iU-J10" firstAttribute="centerX" secondItem="SjV-gb-VUq" secondAttribute="centerX" id="3JT-ui-Im3"/>
+                            <constraint firstItem="KtB-Ct-f7r" firstAttribute="centerX" secondItem="SjV-gb-VUq" secondAttribute="centerX" id="TI8-GD-Yoa"/>
+                            <constraint firstItem="KtB-Ct-f7r" firstAttribute="centerY" secondItem="SjV-gb-VUq" secondAttribute="centerY" id="cxO-Y7-aMF"/>
+                            <constraint firstItem="FJf-iU-J10" firstAttribute="top" secondItem="KtB-Ct-f7r" secondAttribute="bottom" constant="8" id="whn-kR-Hds"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -116,7 +127,7 @@
         <!--Second-->
         <scene sceneID="p0T-nL-5sI">
             <objects>
-                <viewController storyboardIdentifier="LMAOSecond" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yC8-aS-IPC" customClass="LMAOSecond" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LMAOSecond" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yC8-aS-IPC" customClass="LMAOSecond" customModule="iKidAssignment" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="VMm-oI-Sc6"/>
                         <viewControllerLayoutGuide type="bottom" id="ELf-Y5-Ouk"/>
@@ -125,14 +136,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="code2.png" translatesAutoresizingMaskIntoConstraints="NO" id="kxf-TC-eWn">
-                                <rect key="frame" x="180" y="181" width="240" height="239"/>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inheritance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUj-ae-CcC">
+                                <rect key="frame" x="257" y="289" width="86" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="kxf-TC-eWn" firstAttribute="centerY" secondItem="xxh-BL-3H5" secondAttribute="centerY" id="Tbq-gd-esb"/>
-                            <constraint firstItem="kxf-TC-eWn" firstAttribute="centerX" secondItem="xxh-BL-3H5" secondAttribute="centerX" id="sUE-QC-hjs"/>
+                            <constraint firstItem="gUj-ae-CcC" firstAttribute="centerX" secondItem="xxh-BL-3H5" secondAttribute="centerX" id="dAt-T6-Ji1"/>
+                            <constraint firstItem="gUj-ae-CcC" firstAttribute="centerY" secondItem="xxh-BL-3H5" secondAttribute="centerY" id="hvL-Xn-Fj8"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -181,7 +195,7 @@
         <!--Haha First-->
         <scene sceneID="hF7-gk-ao3">
             <objects>
-                <viewController storyboardIdentifier="hahaFirst" id="Ze3-4Y-KWj" customClass="hahaFirst" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="hahaFirst" id="Ze3-4Y-KWj" customClass="hahaFirst" customModule="iKidAssignment" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OdR-79-FNp"/>
                         <viewControllerLayoutGuide type="bottom" id="Ax7-C0-AQc"/>
@@ -190,14 +204,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="haha1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JC4-hh-Xgg">
-                                <rect key="frame" x="276" y="244" width="45" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Programmer (noun)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ww-qh-WrU">
+                                <rect key="frame" x="225" y="289" width="150" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0ww-qh-WrU" firstAttribute="centerX" secondItem="pHF-lb-pGv" secondAttribute="centerX" id="3xk-Ap-Dyp"/>
+                            <constraint firstItem="0ww-qh-WrU" firstAttribute="centerY" secondItem="pHF-lb-pGv" secondAttribute="centerY" id="gAs-LV-LpB"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WJi-T5-cuh" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -207,7 +225,7 @@
         <!--Haha Second-->
         <scene sceneID="WFU-9o-jx7">
             <objects>
-                <viewController storyboardIdentifier="hahaSecond" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QKM-zY-OaF" customClass="hahaSecond" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="hahaSecond" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QKM-zY-OaF" customClass="hahaSecond" customModule="iKidAssignment" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1eQ-BG-T6A"/>
                         <viewControllerLayoutGuide type="bottom" id="4l2-k5-37E"/>
@@ -216,24 +234,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="haha2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yrW-rh-Io0">
-                                <rect key="frame" x="273" y="218" width="48" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A machine that turns coffee into code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2cG-5l-KNx">
+                                <rect key="frame" x="156" y="289" width="288" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2cG-5l-KNx" firstAttribute="centerX" secondItem="3Bb-C0-nsz" secondAttribute="centerX" id="cbx-v1-PkU"/>
+                            <constraint firstItem="2cG-5l-KNx" firstAttribute="centerY" secondItem="3Bb-C0-nsz" secondAttribute="centerY" id="d1b-9f-d3G"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="coD-Oj-0lI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-189" y="1803"/>
+            <point key="canvasLocation" x="-184" y="1787"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="kjQ-3q-CrI">
             <objects>
-                <viewController id="R8E-yj-Jwq" customClass="SecondViewController" sceneMemberID="viewController">
+                <viewController id="R8E-yj-Jwq" customClass="SecondViewController" customModule="iKidAssignment" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="n8O-5t-GB4"/>
                         <viewControllerLayoutGuide type="bottom" id="2Ox-wg-8BL"/>
@@ -271,7 +293,7 @@
         <!--First-->
         <scene sceneID="8oo-x7-wIb">
             <objects>
-                <viewController storyboardIdentifier="LOLFirst" id="IZU-jq-2rZ" customClass="LOLFirst" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LOLFirst" id="IZU-jq-2rZ" customClass="LOLFirst" customModule="iKidAssignment" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0iS-fp-2CM"/>
                         <viewControllerLayoutGuide type="bottom" id="XNE-3D-6ic"/>
@@ -280,14 +302,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="happy.png" translatesAutoresizingMaskIntoConstraints="NO" id="QYq-ur-vBS">
-                                <rect key="frame" x="180" y="166" width="240" height="267"/>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 database SQL walked into a bar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qXb-7T-0Et">
+                                <rect key="frame" x="172" y="290" width="256" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="and they walked out" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zoC-4L-bpf">
+                                <rect key="frame" x="223" y="334" width="154" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="QYq-ur-vBS" firstAttribute="centerX" secondItem="nLU-iI-uPr" secondAttribute="centerX" id="17X-b0-yP3"/>
-                            <constraint firstItem="QYq-ur-vBS" firstAttribute="centerY" secondItem="nLU-iI-uPr" secondAttribute="centerY" id="gDE-yE-L7O"/>
+                            <constraint firstItem="qXb-7T-0Et" firstAttribute="centerX" secondItem="nLU-iI-uPr" secondAttribute="centerX" id="Dmw-bA-Nix"/>
+                            <constraint firstItem="qXb-7T-0Et" firstAttribute="centerY" secondItem="nLU-iI-uPr" secondAttribute="centerY" id="FNm-cE-r51"/>
+                            <constraint firstItem="zoC-4L-bpf" firstAttribute="centerX" secondItem="nLU-iI-uPr" secondAttribute="centerX" id="Ndq-i0-0Sn"/>
+                            <constraint firstItem="zoC-4L-bpf" firstAttribute="top" secondItem="qXb-7T-0Et" secondAttribute="bottom" constant="23" id="czE-6S-7Nf"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -298,7 +331,7 @@
         <!--Second-->
         <scene sceneID="ckb-Wl-Nhf">
             <objects>
-                <viewController storyboardIdentifier="LOLSecond" id="Ibj-0d-xdL" customClass="LOLSecond" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LOLSecond" id="Ibj-0d-xdL" customClass="LOLSecond" customModule="iKidAssignment" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="KGI-S3-5BY"/>
                         <viewControllerLayoutGuide type="bottom" id="fHt-9A-PS3"/>
@@ -307,20 +340,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="sad.png" translatesAutoresizingMaskIntoConstraints="NO" id="5g1-g2-zW0">
-                                <rect key="frame" x="180" y="170" width="240" height="259"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ksW-7P-2e9">
-                                <rect key="frame" x="311" y="453" width="10" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="becasue they can't find a table" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1sz-lw-dOr">
+                                <rect key="frame" x="183" y="289" width="234" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="5g1-g2-zW0" firstAttribute="centerY" secondItem="aFT-6D-cYP" secondAttribute="centerY" id="cmJ-ym-vlE"/>
-                            <constraint firstItem="5g1-g2-zW0" firstAttribute="centerX" secondItem="aFT-6D-cYP" secondAttribute="centerX" id="jn4-W1-cge"/>
+                            <constraint firstItem="1sz-lw-dOr" firstAttribute="centerX" secondItem="aFT-6D-cYP" secondAttribute="centerX" id="DJh-3d-zYF"/>
+                            <constraint firstItem="1sz-lw-dOr" firstAttribute="centerY" secondItem="aFT-6D-cYP" secondAttribute="centerY" id="KE0-bu-eyR"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -329,13 +359,7 @@
             <point key="canvasLocation" x="1221" y="1800"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="code1.png" width="384" height="322"/>
-        <image name="code2.png" width="624" height="497"/>
-        <image name="happy.png" width="335" height="453"/>
-        <image name="sad.png" width="338" height="437"/>
-    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="YR5-OV-aCc"/>
+        <segue reference="eWd-ar-81v"/>
     </inferredMetricsTieBreakers>
 </document>

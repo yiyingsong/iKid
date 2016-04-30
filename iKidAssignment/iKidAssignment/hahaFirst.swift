@@ -10,11 +10,9 @@ import UIKit
 
 class hahaFirst: UIViewController {
 
-    @IBOutlet weak var hahaFirst: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    hahaFirst.frame = CGRectMake(0,0,100,200)
         // Do any additional setup after loading the view.
     }
 
